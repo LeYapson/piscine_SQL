@@ -1,3 +1,2 @@
-SELECT *
-    FROM employees
-    ORDER BY FirstName, LastName, Title;
+SELECT FirstName, LastName, Title
+FROM Employees;
