@@ -1,4 +1,4 @@
--- Insert information for the new employee John Doe
+-- Insert information for the new employee John Doe with American date format
 INSERT INTO Employees (
     LastName,
     FirstName,
@@ -19,8 +19,8 @@ INSERT INTO Employees (
     'John',
     'IT Developer',
     (SELECT EmployeeId FROM Employees WHERE LastName = 'Mithell' AND FirstName = 'Michael'),
-    '1999-03-18',
-    '2020-03-18',
+    '1999-03-18 00:00:00',
+    '2020-03-18 00:00:00',
     '142 rue Sainte-Catherine',
     'Bordeaux',
     'NA',
