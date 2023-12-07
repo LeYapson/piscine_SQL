@@ -1,2 +1,2 @@
-SELECT employeeId AS "identifiant", LastName AS "Nom", FirstName As "Prenom"
+SELECT EmployeeId AS Identifiant, LastName AS Nom, FirstName AS Prenom
 FROM Employees;
