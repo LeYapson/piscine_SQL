@@ -1,6 +1,6 @@
 -- Count the number of customers who have a Company
 SELECT
-    COUNT(DISTINCT Company) AS NbCompanies
+    COUNT(*) NbCompanies
 FROM
     customers
 WHERE
