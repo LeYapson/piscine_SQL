@@ -1,3 +1,9 @@
-SELECT employees.EmployeeId, employees.LastName, employees.FirstName, strftime('%d/%m/%Y', employees.HireDate) HireFrenchDate
-FROM employees
-ORDER BY datetime(HireDate, '') ASC;
+SELECT
+    EmployeeId,
+    LastName,
+    FirstName,
+    strftime('%d/%m/%Y', HireDate) AS HireFrenchDate
+FROM
+    employees
+ORDER BY
+    HireDate ASC;
