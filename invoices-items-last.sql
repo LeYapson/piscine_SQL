@@ -1,5 +1,5 @@
 SELECT
-    tracks.Name AS PurchasedProductName
+    tracks.Name AS Name
 FROM
     invoice_items
 JOIN
